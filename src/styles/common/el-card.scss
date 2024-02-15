@@ -1,0 +1,8 @@
+@import "@/styles/theme-config";
+
+.el-card.is-always-shadow {
+  box-shadow: $global-module-shadow;
+  border-radius: $global-layout-border-radius;
+  border-width: 0;
+  background-color: $global-layout-card-background-color;
+}
