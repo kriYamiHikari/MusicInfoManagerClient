@@ -99,7 +99,8 @@ $container-height: calc(100% - $global-layout-outside-margin * 2);
   padding-left: $global-layout-margin;
   padding-bottom: $global-layout-margin;
   margin-top: $global-layout-margin;
-  width: $global-layout-aside-width + $global-layout-margin * 2 !important;
+  width: 100% !important;
+  max-width: $global-layout-aside-width + $global-layout-margin * 2 !important;
   transition: $global-layout-transition;
 }
 
