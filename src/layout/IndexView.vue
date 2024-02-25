@@ -1,12 +1,12 @@
 <!--suppress JSValidateTypes -->
 <script>
 
-import SideBar from "@/layout/SideBar.vue";
+import SideBarMain from "@/layout/SideBar/SideBarMain.vue";
 import NavBar from "@/layout/NavBar.vue";
 
 export default {
   name: "IndexView",
-  components: {NavBar, SideBar},
+  components: {NavBar, SideBarMain},
   data() {
     return {
       backgroundImage: require('@/assets/background/default_bg.jpg')
@@ -23,7 +23,7 @@ export default {
       <el-container style="height: 100%">
         <el-aside>
           <el-card class="aside-card">
-            <side-bar></side-bar>
+            <side-bar-main></side-bar-main>
           </el-card>
         </el-aside>
         <el-container>
