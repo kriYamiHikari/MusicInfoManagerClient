@@ -34,7 +34,9 @@ export default {
           </el-header>
           <el-main>
             <el-card class="main-card">
-              <router-view></router-view>
+              <transition name="el-fade-in" mode="out-in">
+                <router-view></router-view>
+              </transition>
             </el-card>
           </el-main>
         </el-container>

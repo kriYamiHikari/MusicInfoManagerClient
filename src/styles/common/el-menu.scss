@@ -1,0 +1,44 @@
+@import "@/styles/theme-config";
+
+$side-margin: 16px;
+
+.el-menu {
+  border-right-width: 0;
+  background-color: $global-side-menu-background-color;
+  transition: $global-layout-transition;
+  border-radius: 12px;
+  width: $global-layout-aside-width - 60px !important;
+  //box-shadow: $global-side-menu-shadow;
+
+  .el-menu-item {
+    &:hover{
+      background-color: adjust-color($global-primary-theme-color, $alpha: -0.86);
+    }
+    margin: 4px $side-margin;
+    border-radius: 12px;
+    color: $global-primary-font-color;
+  }
+  .el-menu-item.is-active{
+    color: $global-primary-theme-color;
+    background-color: adjust-color($global-primary-theme-color, $alpha: -0.82);
+  }
+}
+
+.el-submenu {
+  .el-menu--inline {
+    background-color: $global-side-menu-background-color;
+  }
+
+  .el-submenu__title {
+    &:hover{
+      background-color: adjust-color($global-primary-theme-color, $alpha: -0.86);
+    }
+    margin: 0 $side-margin;
+    border-radius: 12px;
+    color: $global-primary-font-color;
+  }
+
+  .el-menu-item {
+    color: $global-primary-font-color;
+  }
+}

@@ -31,6 +31,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@import "@/styles/index";
 .el-image {
   width: 64px;
   height: 64px;
@@ -41,5 +42,6 @@ export default {
 .text-div {
   font-weight: bold;
   font-size: 1.5rem;
+  color: $global-primary-font-color;
 }
 </style>

@@ -8,26 +8,31 @@ $global-layout-aside-width: 360px;
 $global-layout-header-height: 70px;
 $global-layout-border-radius: 16px;
 $global-layout-transition: all 0.3s ease;
-$global-layout-card-background-color: rgba(255, 255, 255, 0.5);
+$global-layout-card-background-color: rgba(255, 255, 255, 0.46);
+//侧边栏
+$global-side-menu-background-color: rgba(255, 255, 255, 0);
+$global-side-menu-icon-color: rgb(255, 255, 20);
 //阴影
 $global-module-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.06);
+$global-side-menu-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.02);
 //字体风格
 $global-font-family: "Microsoft YaHei UI", sans-serif;
 $global-font-size: 16px;
-//字体颜色
+//字体与图标颜色
 $global-primary-font-color: rgb(61, 61, 61);
 $global-secondary-font-color: rgb(140, 140, 140);
-
+$global-icon-color: rgb(61, 61, 61);
+//主题色
+$global-primary-theme-color: rgb(156, 188, 227);
+$global-secondary-theme-color: rgb(245, 195, 134);
+$global-tertiary-theme-color: rgb(225, 219, 233);
 
 
 //背景颜色
 //$global-default-background-color: rgb(255, 255, 255);
 //$global-aside-background-color: rgba(255, 255, 255, 0.8);
 //$global-main-container-background-color: rgba(255, 255, 255, 0.6);
-//主题色
-//$global-primary-theme-color: rgb(156, 188, 227);
-//$global-secondary-theme-color: rgb(245, 195, 134);
-//$global-tertiary-theme-color: rgb(225, 219, 233);
+
 //描边
 //$global-border-color: rgb(230, 230, 230);
 //$global-module-border-color: rgb(246, 246, 246);

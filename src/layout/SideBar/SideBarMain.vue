@@ -20,7 +20,7 @@ export default {
 <template>
   <div class="side-container">
     <!--suppress JSValidateTypes -->
-    <icon-label :src="iconSrc" text="音乐信息管理"></icon-label>
+    <icon-label :src="iconSrc" text="音乐信息管理系统"></icon-label>
     <div class="menu-container">
       <el-menu :router="true" :default-active="defaultActive">
         <side-bar-item v-for="route in $router.options.routes" :key="route.path" :item="route"
@@ -31,6 +31,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@import "@/styles/index";
 .side-container {
   display: flex;
   flex-direction: column;
